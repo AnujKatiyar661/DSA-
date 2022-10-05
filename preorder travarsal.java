@@ -1,0 +1,19 @@
+class Solution {
+    public List<Integer> preHelper(TreeNode root,List<Integer>list) {
+        if(root == null) return list;
+        
+        
+        //add order
+        list.add(root.val);
+        
+        preHelper(root.left,list);
+        preHelper(root.right,list);
+        
+        return list;
+    }
+    
+    public List<Integer> preorderTraversal(TreeNode root) {
+    List<Integer> list=new ArrayList<>();
+        return preHelper(root,list);
+    }
+}
