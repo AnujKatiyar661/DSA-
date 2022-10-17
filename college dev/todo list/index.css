@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,800&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+    background-image: radial-gradient(circle at top right, rgb(105, 135, 213) 0%, rgb(105, 135, 213) 14.286%,rgb(94, 121, 206) 14.286%, rgb(94, 121, 206) 28.572%,rgb(82, 107, 199) 28.572%, rgb(82, 107, 199) 42.858%,rgb(71, 94, 193) 42.858%, rgb(71, 94, 193) 57.144%,rgb(59, 80, 186) 57.144%, rgb(59, 80, 186) 71.43%,rgb(48, 66, 179) 71.43%, rgb(48, 66, 179) 85.716%,rgb(36, 52, 172) 85.716%, rgb(36, 52, 172) 100.002%);
+ }
+input {
+    padding:0.5rem;
+    font-size: 18px;
+}
+
+button{
+    padding: 0.6rem;
+color:black
+}
+.para-styling{
+    background-color: rgb(51, 85, 16);
+    color: azure;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.para-styling:hover{
+transform: 1:1;
+}
+
+
+
+
+
+
